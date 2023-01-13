@@ -33,7 +33,7 @@ function loginForm(){
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Tuts+ Chat Application</title>
+        <title>Chat Application</title>
         <meta name="description" content="Chat Application" />
         <link rel="stylesheet" href="style.css" />
     </head>
