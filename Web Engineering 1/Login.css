@@ -1,0 +1,90 @@
+    body {
+        background-color: rgb(87, 87, 87);
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20;
+        text-align: center;
+    }
+
+
+    /*LogoDiv*/
+    #LogoDiv {
+        background-color: rgb(50, 50, 50);
+        border-radius: 25px;      /*Rounded Corner*/
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 400px;
+        margin-right: 400px;
+        height: 190px;
+        transform: skewY(-10deg);
+    }
+
+    /*Logo*/
+    #Logo {
+        background: url("Logo.png");
+        background-position-x: center;
+        background-position-y: 23px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 195px; 
+        width: 150px; 
+        margin-left: 280px;
+    }
+    
+    /*Logo Hover*/
+    #Logo:hover {
+        background: url("Logo-Hover.png");
+        background-position-x: center;
+        background-position-y: 23px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    /*Login*/
+    #LoginDiv {
+        background-color: rgb(70, 70, 70);
+        border-radius: 25px;      /*Rounded Corner*/
+        margin-left: 400px;
+        margin-right: 400px;
+        height: 360px;
+        transform: skewY(-10deg);
+    }
+
+    /*Input Username & Password*/
+    input[type=text], input[type=password] {
+        width: 60%;
+        height: 15%;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 25px;      /*Rounded Corner*/
+        text-align: left;
+        margin-left: 150px;
+    }
+    
+    /*Login Button*/
+    button {
+        width: 60%;
+        height: 15%;
+        background-color: rgb(50, 50, 50);
+        color: white;
+        border: none;
+        border-radius: 25px;      /*Rounded Corner*/
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: 15;
+    }
+
+    /*Login Button Hover*/
+    button:hover {
+        background-color: black;
+    }
+    

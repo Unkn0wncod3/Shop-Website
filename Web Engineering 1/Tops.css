@@ -1,0 +1,213 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: rgb(87, 87, 87);
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25;
+    }
+
+    h2 {
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15;
+    }
+
+    h4 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18;
+    }
+
+    p2 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18;
+        text-align: center;
+    }
+
+    p3 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left;
+        font-size: 10px;
+    }
+    
+    a {
+        color: white;
+        font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+        text-decoration: none;
+    }
+
+    /* Header Style */
+    header {
+        background-color: rgba(37, 37, 37, 0.555);
+        padding: 20px;
+        text-align: left;
+        font-size: 15px;
+        color: white;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+    
+    /*Navbar*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+        /*background-color: rgba(51, 51, 51, 0.681);*/
+        text-align: center;
+    }
+      
+    li {
+        display: inline-block;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+      
+    li a:hover {
+        background-color: rgba(0, 0, 0, 0.245);
+    }
+
+    /*Searchbox*/
+    input[type=text] {
+        background-color: rgba(69, 69, 69, 0.555);
+        color: white;
+        border-style: hidden;
+        height: 47px;
+        font-size: 15;
+    }
+
+    button {
+        background-color: rgba(69, 69, 69, 0.555);
+        font-size: 15;
+        height: 47px;
+        width: 47px;
+        color: white;
+        border-style: hidden;
+    }
+
+    button:hover {
+        background-color: rgba(0, 0, 0, 0.245);
+    }
+
+    /*Article Cotton Text*/
+    article {
+        margin-top: 20;
+        margin-left: 30;
+        height: 155;
+        /*background-color: rgb(78, 78, 78);*/
+        background-color: rgb(87, 87, 87); /*Background same as Body*/
+        text-align: left;
+        background-image: url("TopsText.png");
+        background-repeat: no-repeat;
+        background-position-x: 15cm;
+        background-position-y: center;
+        background-size: contain;
+    }
+
+    /*Products Background*/
+    #products {
+        margin-top: 20;
+        background-color: rgb(91, 91, 91);
+        border-radius: 25px;      /*Rounded Corner*/
+    }
+
+    /*Product card*/
+    #card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.381);
+        max-width: 30%;
+        border-radius: 25px;      /*Rounded Corner*/
+        margin-top: 20px;
+        text-align: center;
+    }
+      
+    #price {
+        color: white;
+        font-size: 22px;
+    }
+      
+    #card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        border-radius: 25px;      /*Rounded Corner*/
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+      
+    #card button:hover {
+        opacity: 0.7;
+    }
+  
+    /* Footer Style */
+    footer {
+        background-color: black;
+        height: 167px;
+        font-size: 10px;
+        color: white;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        background-image: url("Logo.png");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: contain;
+    }
+
+    /*Footer Left and Right*/
+    #alignright {
+        float: right;
+    }
+    
+    #alignleft {
+        float: left;
+    }
+
+    /*Footer Table*/
+    table, th, td{
+        border: 0px solid black;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    /* Scroll Down Button */
+    #down {
+        margin-top: 5%;
+        padding-bottom: 0%;
+    } 
