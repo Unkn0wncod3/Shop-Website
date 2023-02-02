@@ -129,7 +129,7 @@
         /*background-color: rgb(78, 78, 78);*/
         background-color: rgb(87, 87, 87); /*Background same as Body*/
         text-align: left;
-        background-image: url("TopsText.png");
+        background-image: url("images/TopsText.png");
         background-repeat: no-repeat;
         background-position-x: 15cm;
         background-position-y: center;
@@ -181,7 +181,7 @@
         font-size: 10px;
         color: white;
         font-family: Tahoma, Verdana, Segoe, sans-serif;
-        background-image: url("Logo.png");
+        background-image: url("images/Logo.png");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: bottom;

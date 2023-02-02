@@ -9,7 +9,6 @@ function showMessage() {
 function removeFromCart(item) {
     if (typeof(Storage) !== "undefined") {
       var cart = JSON.parse(localStorage.getItem("cart")) || [];
-
       delete cart[item]
       localStorage.setItem("cart", JSON.stringify(cart));
       location.reload();
