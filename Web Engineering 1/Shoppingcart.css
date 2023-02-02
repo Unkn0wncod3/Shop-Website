@@ -180,3 +180,10 @@
         margin-top: 5%;
         padding-bottom: 0%;
     } 
+
+    .remove-cart-button {
+        border: 1px solid black;
+        width: auto;
+        height: auto;
+        background-color: black;
+    }
