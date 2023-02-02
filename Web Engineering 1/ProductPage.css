@@ -121,7 +121,7 @@
 
     /*Product Picture*/
     #ProductPic {
-        background: url("AstronautTee.png");
+        background: url("images/AstronautTee.png");
         background-color: rgb(87, 87, 87);
         background-position-x: center;
         background-position-y: 23px;
@@ -140,7 +140,7 @@
         font-size: 10px;
         color: white;
         font-family: Tahoma, Verdana, Segoe, sans-serif;
-        background-image: url("Logo.png");
+        background-image: url("images/Logo.png");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: bottom;

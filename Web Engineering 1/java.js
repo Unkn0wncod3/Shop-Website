@@ -9,8 +9,6 @@ function showMessage() {
 function removeFromCart(item) {
     if (typeof(Storage) !== "undefined") {
       var cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-      // Remove the specified item from the cart
       var index = cart.indexOf(item);
       if (index !== -1) {
         cart.splice(index, 1);

@@ -31,7 +31,7 @@
 
     /*Logo*/
     #Logo {
-        background: url("Logo.png");
+        background: url("images/Logo.png");
         background-position-x: center;
         background-position-y: 23px;
         background-size: contain;
@@ -43,7 +43,7 @@
     
     /*Logo Hover*/
     #Logo:hover {
-        background: url("Logo-Hover.png");
+        background: url("images/Logo-Hover.png");
         background-position-x: center;
         background-position-y: 23px;
         background-size: contain;
