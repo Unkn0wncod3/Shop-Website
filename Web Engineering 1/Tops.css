@@ -211,3 +211,14 @@
         margin-top: 5%;
         padding-bottom: 0%;
     } 
+
+    .message-box {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: lightgrey;
+        border-radius: 20px;
+        padding: 20px;
+    }

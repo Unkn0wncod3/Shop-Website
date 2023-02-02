@@ -2,9 +2,15 @@
     <head>
         <link rel="stylesheet" href="Tops.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="java.js"></script>
     </head>
 
     <body>
+        <!--Message Box-->
+        <div id="message-box" class="message-box">
+            Added to Cart
+        </div>
+        <button id="show-cart-button" onclick="showCart_simple()">Warenkorb anzeigen</button>
         <!--Header-->
         <header>
             <h2>Ylem.clo<sup>&#169;</sup></h2>
@@ -35,7 +41,7 @@
                 <h4>Astronaut T-shirt</h4>
                 <p id="price">39.99€</p>
                 <p>Short sleeve jersey t-shirt in jet black</p>
-                <p><button>Add to Cart</button></p>
+                <p><button id="tops_1" onclick="addToCart(id);showMessage();">Add to Cart</button></p>
             </div>
                     
             <!--ButterflyTee-->
@@ -44,7 +50,7 @@
                 <h4>Butterfly T-shirt</h4>
                 <p id="price">39.99€</p>
                 <p>Short sleeve jersey t-shirt in jet black</p>
-                <p><button>Add to Cart</button></p>
+                <p><button id="tops_2" data-product-id="2">Add to Cart</button></p>
             </div>
                     
             <!--SkullTee-->
