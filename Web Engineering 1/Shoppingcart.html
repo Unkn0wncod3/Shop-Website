@@ -2,9 +2,11 @@
     <head>
         <link rel="stylesheet" href="Shoppingcart.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="java.js"></script>
     </head>
 
-    <body>
+    <body onload="showCart()">
+
         <!--Header-->
         <header>
             <h2>Ylem.clo<sup>&#169;</sup></h2>
@@ -23,6 +25,7 @@
         <!--My-Cart-->
         <article>
             <h1>My Cart</h1>
+                    <!--
                 <table id="table1">
                     <tr>
                         <th>ITEM</th>
@@ -32,12 +35,28 @@
                         <th>ADDITIONAL REQUEST</th>
                     </tr>
                     <tr>
-                        <td>Your shopping cart is empty</td>
+                        <td>Your shopping cart is empty
+                            showCart()
+                        </td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                     </tr>
+                </table>
+                -->
+                <table id ="table1">
+                    <thead>
+                      <tr>
+                        <th>ITEM</th>
+                        <th>SIZE</th>
+                        <th>QTY</th>
+                        <th>PRICE</th>
+                        <th>UPDATE CART</th>
+                      </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                    </tbody>
                 </table>
             <br>
         </article>
