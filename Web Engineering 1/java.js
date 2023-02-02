@@ -11,7 +11,7 @@ function removeFromCart(item) {
     var cart = JSON.parse(localStorage.getItem("cart")) || [];
     delete cart[item]
     localStorage.setItem("cart", JSON.stringify(cart));
-    location.reload();
+    showCart();
   } else {
     alert("Local storage is not supported by your browser.");
   }
