@@ -119,7 +119,7 @@
 
   /*Streetwear for everyone*/
   article {
-    background-image: url('astronaut-1.png');
+    background-image: url("images/astronaut-1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
