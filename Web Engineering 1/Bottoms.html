@@ -2,9 +2,13 @@
     <head>
         <link rel="stylesheet" href="Bottoms.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="java.js"></script>
     </head>
 
     <body>
+        <div id="message-box" class="message-box">
+            Added to Cart
+        </div>
         <!--Header-->
         <header>
             <h2>Ylem.clo<sup>&#169;</sup></h2>
@@ -35,7 +39,7 @@
                 <h4>Pants V1</h4>
                 <p id="price">49.99€</p>
                 <p>Cargo pant in matte Black nylon</p>
-                <p><button>Add to Cart</button></p>
+                <p><button id="PantsV1" onclick="addToCart(id,'L','1','49,99€');showMessage();">Add to Cart</button></p>
             </div>
                     
             <!--Pants-V2-->
@@ -44,7 +48,7 @@
                 <h4>Pants V2</h4>
                 <p id="price">49.99€</p>
                 <p>Black heavy stretch cotton military pants</p>
-                <p><button>Add to Cart</button></p>
+                <p><button id="PantsV2" onclick="addToCart(id,'L','1','49,99€');showMessage();">Add to Cart</button></p>
             </div>
         </div>
         <!--Footer-->
