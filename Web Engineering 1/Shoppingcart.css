@@ -120,19 +120,20 @@
     }
 
     #table1 {
-        width:94%;
-        height:120px;
+        width: 94%;
+        height: auto;
         margin-left: 40;
-        font-size:24px;
+        font-size: 25px;
         border:1px solid rgb(52, 52, 52);
-        border-collapse:collapse;
+        border-collapse: collapse;
     }
 
     #table1 th {
         vertical-align:middle;
         text-align:center;
         border:1px solid rgb(52, 52, 52);
-        font-size: 14;
+        font-size: 15;
+        height: 50px;
     }
 
     #table1 td {
@@ -140,6 +141,23 @@
         text-align:center;
         border:1px solid rgb(52, 52, 52); 
         font-size: 13;
+        height: 70px;
+    }
+
+    .remove-cart-button {
+        background-color: rgb(50, 50, 50);
+        color: white;
+        border: none;
+        width: 25%;
+        height: 45%;
+        border-radius: 25px;      /*Rounded Corner*/
+        font-size: 13px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /*Login Button Hover*/
+    .remove-cart-button:hover {
+        background-color: black;
     }
 
     /* Footer Style */
@@ -164,7 +182,7 @@
     #alignleft {
         float: left;
     }
-
+    
     /*Footer Table*/
     table, th, td {
         border:0px solid black;
@@ -180,10 +198,3 @@
         margin-top: 5%;
         padding-bottom: 0%;
     } 
-
-    .remove-cart-button {
-        border: 1px solid black;
-        width: auto;
-        height: auto;
-        background-color: black;
-    }
