@@ -9,11 +9,9 @@ function showMessage() {
 function removeFromCart(item) {
     if (typeof(Storage) !== "undefined") {
       var cart = JSON.parse(localStorage.getItem("cart")) || [];
-      var index = cart.indexOf(item);
-      if (index !== -1) {
-        cart.splice(index, 1);
-        localStorage.setItem("cart", JSON.stringify(cart));
-      }
+      delete cart[item]
+      localStorage.setItem("cart", JSON.stringify(cart));
+      location.reload();
     } else {
       alert("Local storage is not supported by your browser.");
     }
@@ -52,8 +50,8 @@ function showCart() {
       var remove_button = document.createElement("button");
       remove_button.className = "remove-cart-button";
       remove_button.innerHTML = "remove from cart";
-      remove_button.id = item;
-      remove_button.setAttribute("onClick", "removeFromCart(${cart[item]})");  
+      remove_button.id=item
+      remove_button.setAttribute("onClick", "removeFromCart(id)");  
       td5.innerHTML = remove_button.outerHTML;
       tr.appendChild(td5);
 
