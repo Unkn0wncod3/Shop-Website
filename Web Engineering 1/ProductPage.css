@@ -36,7 +36,15 @@
         text-align: left;
         font-size: 15px;
         margin-left: 40;
-        margin-top: 10;
+    }
+
+    p2 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left;
+        font-size: 12px;
+        margin-left: 40;
+        margin-top: 5;
     }
 
     p3 {
@@ -44,6 +52,12 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: left;
         font-size: 10px;
+    }
+
+    p4 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
     }
 
     a {
@@ -115,8 +129,42 @@
     #ProductOV {
         background-color: rgb(71, 71, 71);
         border-radius: 25px;      /*Rounded Corner*/
-        height: 570px;
+        height: 650px;
         margin-top: 40;
+    }
+
+    /*Product Size*/
+    #table1 {
+        width: 202px;
+        height: auto;
+        margin-left: 40;
+        border: 1px solid white;
+    }
+
+    #table1 th {
+        border: 1px solid white;
+    }
+
+    /*Quantity*/
+    #dropdown {
+        border: 1px solid white;
+        margin-left: 40px;
+        height: 40px;
+        width: 50px;
+        text-align: center;
+    }
+      
+    #dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(58, 58, 58);
+        width: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 10px 5px;
+    }
+     
+    #dropdown:hover #dropdown-content {
+        display: block;
     }
 
     /*Product Picture*/
@@ -127,6 +175,7 @@
         background-position-y: 23px;
         background-size: contain;
         background-repeat: no-repeat;
+        position: absolute;
         border-radius: 25px;      /*Rounded Corner*/
         height: 480px; 
         width: 480px; 
