@@ -211,6 +211,7 @@
         padding-bottom: 0%;
     } 
 
+    /*Message after ATC*/
     .message-box {
         display: none;
         position: fixed;
