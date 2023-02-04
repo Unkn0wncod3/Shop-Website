@@ -143,10 +143,9 @@
 
   #col-1-font { 
     position: absolute; 
-    top:120%; 
-    left:2cm; 
-    border: 2px solid white; 
-    border-radius: 7px;
+    top:96%; 
+    left:21.5%; 
+    font-size: 35;
   }
   
   #col-2 {
@@ -161,10 +160,9 @@
 
   #col-2-font {
     position: absolute; 
-    top:120%; 
-    left:22cm; 
-    border: 2px solid white; 
-    border-radius: 7px;
+    top:96%; 
+    left:71.5%; 
+    font-size: 35;
   }
 
   /*Our Goal*/
