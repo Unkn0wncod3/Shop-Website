@@ -155,7 +155,6 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    /*Login Button Hover*/
     .remove-cart-button:hover {
         background-color: black;
     }
@@ -193,7 +192,6 @@
     }
 
     /* Scroll Down Button */
-
     #down {
         margin-top: 5%;
         padding-bottom: 0%;
