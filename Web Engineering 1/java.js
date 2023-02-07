@@ -49,9 +49,15 @@ function showCart() {
       var td5 = document.createElement("td");
       var remove_button = document.createElement("button");
       remove_button.className = "remove-cart-button";
+<<<<<<< Updated upstream
       remove_button.innerHTML = "remove from cart";
       remove_button.id=item
       remove_button.setAttribute("onClick", "removeFromCart(id)");  
+=======
+      remove_button.innerHTML = "REMOVE";
+      remove_button.id = item
+      remove_button.setAttribute("onClick", "removeFromCart(id)");
+>>>>>>> Stashed changes
       td5.innerHTML = remove_button.outerHTML;
       tr.appendChild(td5);
 
