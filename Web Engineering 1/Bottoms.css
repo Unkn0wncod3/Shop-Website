@@ -221,6 +221,7 @@
         background-color: rgb(129, 214, 2);
         text-align: center;
         position: fixed;
+        z-index: 999;
         width: 120px;
         height: 46px;
         font-size: 19px;
