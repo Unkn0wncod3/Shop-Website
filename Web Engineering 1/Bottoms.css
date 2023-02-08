@@ -221,9 +221,11 @@
         background-color: rgb(129, 214, 2);
         text-align: center;
         position: fixed;
+        z-index: 999;
         width: 120px;
         height: 46px;
         font-size: 19px;
         left: 90%;
         top: 90%;
+        z-index: 999;
     }
