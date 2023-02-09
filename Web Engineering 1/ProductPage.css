@@ -172,7 +172,6 @@
     /*Product Picture*/
     #ProductPic {
         background: url("images/AstronautTee.png");
-        background-color: rgb(87, 87, 87);
         background-position-x: center;
         background-position-y: 23px;
         background-size: contain;
