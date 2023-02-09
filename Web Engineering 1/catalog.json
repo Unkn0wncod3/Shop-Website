@@ -32,7 +32,7 @@
             "category": "tops",
             "name": "Astronaut Hoodie",
             "image_path": "AstronautHoodie.png",
-            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey. No backprint",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
             "price": 59.99
         },
@@ -41,7 +41,7 @@
             "category": "tops",
             "name": "Butterfly Hoodie",
             "image_path": "ButterflyHoodie.png",
-            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey. No backprint",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
             "price": 59.99
         },
@@ -50,7 +50,7 @@
             "category": "tops",
             "name": "Skull Hoodie",
             "image_path": "SkullHoodie.png",
-            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey. No backprint",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
             "price": 59.99
         },
