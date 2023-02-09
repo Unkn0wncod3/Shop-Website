@@ -96,7 +96,7 @@ function addToCart() {
         cart[item_id] = {};
         cart[item_id].qty = quantity;
       } else {
-        cart[item_id].qty += quantity;
+        cart[item_id].qty = parseInt(cart[item_id].qty) + parseInt(quantity);
       }
 
       cart[item_id].id = id;
