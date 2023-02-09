@@ -53,9 +53,8 @@
             "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey. No backprint",
             "gsm": 250,
             "price": 59.99
-<<<<<<< Updated upstream
-=======
-        },{
+        },
+        {
             "id": 6,
             "category": "bottoms",
             "name": "Pants V1",
@@ -63,7 +62,8 @@
             "description": "Cargo pant in matte Black nylon.<br>Regular fit with a velcro strap adjuster to the leg opening.<br>Elasticated waistband and cord adjuster.",
             "gsm": 250,
             "price": 49.99
-        },{
+        },
+        {
             "id": 7,
             "category": "bottoms",
             "name": "Pants V2",
@@ -71,7 +71,6 @@
             "description": "Cargo pant in matte Black nylon.<br>Double cargo pockets to the side seams finished with zips.<br>Elasticated waistband and cord adjuster.",
             "gsm": 250,
             "price": 49.99
->>>>>>> Stashed changes
         }
     ]
 }
