@@ -97,3 +97,23 @@ function addToCart(id, size, qty, price) {
 function clearCart() {
   localStorage.removeItem("cart");
 }
+
+function login() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  if (username === "admin" && password === "123") {
+    document.getElementById("message").innerHTML = "Login successful!";
+    showMessage();
+  } else {
+    document.getElementById("message").innerHTML = "Wrong username or password";
+    showMessage_false();
+  }
+}
+
+function showMessage_false() {
+  var messageBox = document.getElementById("message-box-false");
+  messageBox.style.display = "inline";
+  setTimeout(function () {
+    messageBox.style.display = "none";
+  }, 2000); // Die Box wird nach 2000 Millisekunden ausgeblendet.
+}
