@@ -172,7 +172,6 @@
     /*Product Picture*/
     #ProductPic {
         background: url("images/AstronautTee.png");
-        background-color: rgb(87, 87, 87);
         background-position-x: center;
         background-position-y: 23px;
         background-size: contain;
@@ -258,3 +257,11 @@
         margin-left: 40;
         margin-top: 720px;
     }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
+  @media (max-width: 600px) {
+    html, body, a, p, p2, p3, p4, h1, h2, h3, header, ul, #ProductOV, #ProductPic, #card, #down, #middle, footer {
+      width: 100%;
+      height: auto;
+    }
+  } 

@@ -196,3 +196,11 @@
         margin-top: 5%;
         padding-bottom: 0%;
     } 
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
+  @media (max-width: 600px) {
+    html, body, a, p, p3, h1, h2, h3, header, ul, article, #down, footer {
+      width: 100%;
+      height: auto;
+    }
+  } 
