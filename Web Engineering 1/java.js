@@ -127,5 +127,6 @@ function createProductCard() {
     $("#product_description").html(data.products[id].description);
     $("#ProductPic").css("background", "url(images/" + data.products[id].image_path + ")");
   });
+}
 
 }
