@@ -53,6 +53,22 @@
             "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey. No backprint",
             "gsm": 250,
             "price": 59.99
+        },{
+            "id": 6,
+            "category": "bottoms",
+            "name": "Pants V1",
+            "image_path": "PantsV1.png",
+            "description": "Cargo pant in matte Black nylon",
+            "gsm": 250,
+            "price": 49.99
+        },{
+            "id": 7,
+            "category": "bottoms",
+            "name": "Pants V2",
+            "image_path": "PantsV2.png",
+            "description": "Black heavy stretch cotton military pants",
+            "gsm": 250,
+            "price": 49.99
         }
     ]
 }
