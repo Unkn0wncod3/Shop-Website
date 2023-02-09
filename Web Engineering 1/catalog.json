@@ -14,7 +14,7 @@
             "category": "tops",
             "name": "Butterfly T-shirt",
             "image_path": "ButterflyTee.png",
-            "description": "3sdfsdfsfd",
+            "description": "Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight<br> cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.<br> No backprint.",
             "gsm": 250,
             "price": 39.99
         },
@@ -23,7 +23,7 @@
             "category": "tops",
             "name": "Skull T-shirt",
             "image_path": "SkullTee.png",
-            "description": "Test123",
+            "description": "Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight<br> cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.<br> No backprint.",
             "gsm": 250,
             "price": 39.99
         },
