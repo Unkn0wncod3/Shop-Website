@@ -229,3 +229,11 @@
         top: 90%;
         z-index: 999;
     }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
+  @media (max-width: 600px) {
+    html, body, a, p, p2, p3, h1, h2, h3, h4, header, ul, article, #products, #card, #price, #down, footer {
+      width: 100%;
+      height: auto;
+    }
+  } 
