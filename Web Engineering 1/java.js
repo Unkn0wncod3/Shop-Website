@@ -50,7 +50,7 @@ function showCart() {
     for (const item in cart) {
       var tr = document.createElement("tr");
       var td1 = document.createElement("td");
-      td1.innerHTML = cart[item].id;
+      td1.innerHTML = cart[item].name;
       tr.appendChild(td1);
       var td2 = document.createElement("td");
       td2.innerHTML = cart[item].size;
@@ -67,8 +67,8 @@ function showCart() {
       var td5 = document.createElement("td");
       var remove_button = document.createElement("button");
       remove_button.className = "remove-cart-button";
-      remove_button.id=item
-      remove_button.setAttribute("onClick", "removeFromCart(id)");  
+      remove_button.id = item
+      remove_button.setAttribute("onClick", "removeFromCart(id)");
       remove_button.innerHTML = "REMOVE";
       td5.innerHTML = remove_button.outerHTML;
       tr.appendChild(td5);
@@ -78,17 +78,35 @@ function showCart() {
   }
 }
 
-function addToCart(id, size, qty, price) {
+function addToCart() {
   if (typeof (Storage) !== "undefined") {
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    var id = urlParams.get('id');
     var cart = JSON.parse(localStorage.getItem("cart")) || {};
-    if (!cart[id]) {
-      cart[id] = {};
-    }
-    cart[id].id = id;
-    cart[id].size = size;
-    cart[id].qty = qty;
-    cart[id].price = price;
-    localStorage.setItem("cart", JSON.stringify(cart));
+
+    var size = document.querySelector('input[name="size"]:checked').value;
+
+    $.getJSON("catalog.json", function (data) {
+      const item_id = id + "-" + size;
+      
+      if(!cart[item_id]) {
+        cart[item_id] = {};
+        cart[item_id].qty = 1;
+      } else {
+        cart[item_id].qty += 1;
+      }
+
+      cart[item_id].id = id;
+      cart[item_id].name = data.products[id].name;
+      cart[item_id].size = size;
+      cart[item_id].price = data.products[id].price * cart[item_id].qty;
+      localStorage.setItem("cart", JSON.stringify(cart));
+      console.log(cart);
+    });
+
+    
   } else {
     alert("Local storage is not supported by your browser.");
   }
@@ -97,6 +115,18 @@ function addToCart(id, size, qty, price) {
 function clearCart() {
   localStorage.removeItem("cart");
 }
+
+function createProductCard() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const id = urlParams.get('id');
+
+  $.getJSON("catalog.json", function (data) {
+    console.log(data);
+    $("#product_title").html(data.products[id].name);
+    $("#product_description").html(data.products[id].description);
+    $("#ProductPic").css("background", "url(images/" + data.products[id].image_path + ")");
+  });
 
 function login() {
   var username = document.getElementById("username").value;
