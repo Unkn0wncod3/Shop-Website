@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "category": "tops",
+            "name": "Astronaut T-shirt",
+            "image_path": "AstronautTee.png",
+            "description": "Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight<br> cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.<br> No backprint.",
+            "gsm": 250,
+            "price": 39.99
+        },
+        {
+            "id": 1,
+            "category": "tops",
+            "name": "Butterfly T-shirt",
+            "image_path": "ButterflyTee.png",
+            "description": "3sdfsdfsfd",
+            "gsm": 250,
+            "price": 39.99
+        },
+        {
+            "id": 2,
+            "category": "tops",
+            "name": "Skull T-shirt",
+            "image_path": "SkullTee.png",
+            "description": "Test123",
+            "gsm": 250,
+            "price": 39.99
+        },
+        {
+            "id": 3,
+            "category": "tops",
+            "name": "Astronaut Hoodie",
+            "image_path": "AstronautHoodie.png",
+            "description": "Test123",
+            "gsm": 250,
+            "price": 39.99
+        },
+        {
+            "id": 4,
+            "category": "tops",
+            "name": "Butterfly Hoodie",
+            "image_path": "ButterflyHoodie.png",
+            "description": "Test123",
+            "gsm": 250,
+            "price": 39.99
+        },
+        {
+            "id": 5,
+            "category": "tops",
+            "name": "Skull Hoodie",
+            "image_path": "SkullHoodie.png",
+            "description": "Test123",
+            "gsm": 250,
+            "price": 39.99
+        }
+    ]
+}

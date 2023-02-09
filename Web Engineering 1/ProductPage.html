@@ -1,91 +1,84 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="ProductPage.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <script src="java.js"></script>
-    </head>
 
-    <body>
-        <!--Message Box-->
-        <div id="message-box" class="message-box">
-            <i class="fa fa-check"></i>
+<head>
+    <link rel="stylesheet" href="ProductPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <!--Message Box-->
+    <div id="message-box" class="message-box">
+        <i class="fa fa-check"></i>
+    </div>
+
+    <!--Header-->
+    <header>
+        <h2>Ylem.clo<sup>&#169;</sup></h2>
+        <!--Navigation-Bar-->
+        <ul>
+            <li><a href="Projektarbeit.html">Home</a></li>
+            <li><a href="Tops.html">Tops</a></li>
+            <li><a href="Bottoms.html">Bottoms</a></li>
+            <li><a href="#down">About</a></li>
+            <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button>
+            </li>
+            <li><a href="Shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size:19px"></i></a></li>
+            <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
+        </ul>
+    </header>
+
+    <!--Präzisere-Angaben-zum-Produkt-->
+    <div id="ProductOV">
+        <br>
+        <h1 id="product_title"></h1>
+        <div id="ProductPic">
         </div>
-
-        <!--Header-->
-        <header>
-            <h2>Ylem.clo<sup>&#169;</sup></h2>
-                <!--Navigation-Bar-->
-                <ul>
-                    <li><a href="Projektarbeit.html">Home</a></li>
-                    <li><a href="Tops.html">Tops</a></li>
-                    <li><a href="Bottoms.html">Bottoms</a></li>
-                    <li><a href="#down">About</a></li>
-                    <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button></li>
-                    <li><a href="Shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size:19px"></i></a></li>
-                    <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
-                </ul>
-        </header>
-
-        <!--Präzisere-Angaben-zum-Produkt-->
-        <div id="ProductOV">
-            <br>
-            <h1>Astronaut-Tee</h1>
-                <div id="ProductPic">   
-                </div>
-            <p2>Category: T-Shirt</p2>
-            <br>
-            <br>
-            <p>Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight</p>
-            <p>cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.</p>
-            <p>No backprint.</p>
-            <br>
-            <p2>100 % Cotton body.</p2> 
-            <br>
-            <p2>250gsm.</p2> 
-            <br>
-            <p2>Product Code: Y12345-02</p2> 
-            <br>
-            <br>
-            <p>Size:</p>
-                <div id="table1">
-                    <tr>
-                        <th><button>S</button></th>
-                        <th><button>M</button></th>
-                        <th><button>L</button></th>
-                        <th><button>XL</button></th>
-                    </tr>
-                </div>
-            <br>
-            <p>Quantity:</p>
-                <!--<div id="dropdown">
-                    <p4>1</p4>
-                    <div id="dropdown-content">
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                        <p>4</p>
-                        <p>5</p>
-                    </div>
-                </div>-->
-                <div id="table1">
-                    <tr>
-                        <th><button>1</button></th>
-                        <th><button>2</button></th>
-                        <th><button>3</button></th>
-                        <th><button>4</button></th>
-                    </tr>
-                </div>
-            <br>
-            <div id="card">
-                <button id="AstronautTee" onclick="addToCart(id,'M','1','39,99€');showMessage();">Add to Cart</button>
-            </div>
+        <p2>Category: T-Shirt</p2>
+        <br>
+        <br>
+        <p id="product_description"></p>
+        <br>
+        <p2>100 % Cotton body.</p2>
+        <br>
+        <p2>250gsm.</p2>
+        <br>
+        <p2>Product Code: Y12345-02</p2>
+        <br>
+        <br>
+        <p>Size:</p>
+        <div id="table1">
+            <form>
+                <tr>
+                    <td><input type="radio" id="S" name="size" value="S"><label for="S">S</label></td>
+                    <td><input type="radio" id="M" name="size" value="M" checked="true"><label for="M">M</label></td>
+                    <td><input type="radio" id="L" name="size" value="L"><label for="L">L</label></td>
+                    <td><input type="radio" id="XL" name="size" value="XL"><label for="XL">XL</label></td>
+                </tr>
+            </form>
         </div>
+        <br>
+        <p>Quantity:</p>
+        <div id="table1">
+            <tr>
+                <th><button>1</button></th>
+                <th><button>2</button></th>
+                <th><button>3</button></th>
+                <th><button>4</button></th>
+            </tr>
+        </div>
+        <br>
+        <div id="card">
+            <button onclick="addToCart();showMessage();">Add to Cart</button>
+        </div>
+    </div>
 
-        <!--Footer-->
-        <div id="down">
-            <footer>
-                <!--Left-Side-->
-                <div id="alignleft">
+    <!--Footer-->
+    <div id="down">
+        <footer>
+            <!--Left-Side-->
+            <div id="alignleft">
                 <br>
                 <br>
                 <br>
@@ -95,9 +88,9 @@
                 <p3>That is cheaper, still has a high quality standard and is eco</p3>
                 <br>
                 <p3>friendly produced.</p3>
-                </div>
-                <!--Right-Side-->
-                <div id="alignright">
+            </div>
+            <!--Right-Side-->
+            <div id="alignright">
                 <br>
                 <h3>About</h3>
                 <table>
@@ -122,7 +115,9 @@
                         <td>Pants</td>
                     </tr>
                 </table>
-            </footer>
-        </div>
-    </body>
+        </footer>
+    </div>
+    <script>createProductCard();</script>
+</body>
+
 </html>
