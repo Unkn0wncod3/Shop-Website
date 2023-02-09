@@ -87,15 +87,16 @@ function addToCart() {
     var cart = JSON.parse(localStorage.getItem("cart")) || {};
 
     var size = document.querySelector('input[name="size"]:checked').value;
+    var quantity = document.querySelector('input[name="quantity"]:checked').value;
 
     $.getJSON("catalog.json", function (data) {
       const item_id = id + "-" + size;
       
       if(!cart[item_id]) {
         cart[item_id] = {};
-        cart[item_id].qty = 1;
+        cart[item_id].qty = quantity;
       } else {
-        cart[item_id].qty += 1;
+        cart[item_id].qty += quantity;
       }
 
       cart[item_id].id = id;
