@@ -126,6 +126,9 @@ function createProductCard() {
     $("#product_title").html(data.products[id].name);
     $("#product_description").html(data.products[id].description);
     $("#ProductPic").css("background", "url(images/" + data.products[id].image_path + ")");
+    if (data.products[id].category=="bottoms") {
+      $("#ProductPic").css("width", "400px");
+    }
     $("#product_price").html("Price: " + data.products[id].price + "€");
   });
 }
