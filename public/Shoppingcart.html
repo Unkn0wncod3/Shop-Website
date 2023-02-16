@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Shoppingcart.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="java.js"></script>
+        <title>Ylem.clo</title>
+    </head>
+
+    <body onload="showCart(),totalprice()">
+
+        <!--Header-->
+        <header>
+            <h2>Ylem.clo<sup>&#169;</sup></h2>
+                <!--Navigation-Bar-->
+                <ul>
+                    <li><a href="Projektarbeit.html">Home</a></li>
+                    <li><a href="Tops.html">Tops</a></li>
+                    <li><a href="Bottoms.html">Bottoms</a></li>
+                    <li><a href="#down">About</a></li>
+                    <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button></li>
+                    <li><a href="Shoppingcart.html"><i id="cart-icon" class="fa fa-shopping-cart" style="font-size:19px" value=""></i></a></li>
+                    <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
+                </ul>
+        </header>
+
+        <!--My-Cart-->
+        <article>
+            <br>
+            <h1>My Cart</h1>
+            <table id ="table1">
+                <thead>
+                    <tr>
+                        <th>ITEM</th>
+                        <th>SIZE</th>
+                        <th>QTY</th>
+                        <th>PRICE</th>
+                        <th>UPDATE CART</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
+            <br>
+        </article>
+            <div id="totalprice">
+                <h4 id="tp"></h4>
+            </div>
+            <br>
+
+        <!--Footer-->
+        <div id="down">
+            <footer>
+                <!--Left-Side-->
+                <div id="alignleft">
+                <br>
+                <br>
+                <br>
+                <h2>Ylem.clo</h2>
+                <p3>Help us design a new future of Streetwear.</p3>
+                <br>
+                <p3>That is cheaper, still has a high quality standard and is eco</p3>
+                <br>
+                <p3>friendly produced.</p3>
+                </div>
+                <!--Right-Side-->
+                <div id="alignright">
+                <br>
+                <h3>About</h3>
+                <table>
+                    <tr>
+                        <td>Main Menu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>About us</td>
+                        <td>Search</td>
+                    </tr>
+                    <tr>
+                        <td>Return Policies</td>
+                        <td>Hoodies</td>
+                    </tr>
+                    <tr>
+                        <td>Terms and Conditions</td>
+                        <td>Shirts</td>
+                    </tr>
+                    <tr>
+                        <td>Support</td>
+                        <td>Pants</td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+        <script>updateCartIcon();</script>
+    </body>
+</html>

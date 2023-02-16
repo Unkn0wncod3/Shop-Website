@@ -1,0 +1,241 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: rgb(87, 87, 87);
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25;
+        margin-left: 40;
+        margin-top: 20;
+    }
+
+    h2 {
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15;
+    }
+
+    h4 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 21;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    p {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18;
+        margin-left: 40;
+    }
+
+    p3 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    a {
+        color: white;
+        font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+        text-decoration: none;
+    }
+
+    /* Header Style */
+    header {
+        background-color: rgba(37, 37, 37, 0.555);
+        padding: 20px;
+        text-align: left;
+        font-size: 15px;
+        color: white;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    /*Navbar*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+        /*background-color: rgba(51, 51, 51, 0.681);*/
+        text-align: center;
+    }
+    
+    li {
+        display: inline-block;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+    
+    li a:hover {
+        background-color: rgba(0, 0, 0, 0.245);
+    }
+
+    /*Searchbox*/
+    input[type=text] {
+        background-color: rgba(69, 69, 69, 0.555);
+        color: white;
+        border-style: hidden;
+        height: 47px;
+        font-size: 15;
+    }
+
+    button {
+        background-color: rgba(69, 69, 69, 0.555);
+        font-size: 15;
+        height: 47px;
+        width: 47px;
+        color: white;
+        border-style: hidden;
+    }
+
+    button:hover {
+        background-color: rgba(0, 0, 0, 0.245);
+    }
+
+    /*Cart*/
+    article {
+        background-color: rgb(91, 91, 91);
+        margin-top: 20;
+        border-radius: 25px;      /*Rounded Corner*/
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #table1 {
+        width: 94%;
+        height: auto;
+        margin-left: 40;
+        font-size: 25px;
+        border:1px solid rgb(52, 52, 52);
+        border-collapse: collapse;
+    }
+
+    #table1 th {
+        vertical-align:middle;
+        text-align:center;
+        border:1px solid rgb(52, 52, 52);
+        font-size: 15;
+        height: 50px;
+    }
+
+    #table1 td {
+        vertical-align:middle;
+        text-align:center;
+        border:1px solid rgb(52, 52, 52); 
+        font-size: 13;
+        height: 70px;
+    }
+
+    .remove-cart-button {
+        background-color: rgb(50, 50, 50);
+        color: white;
+        border: none;
+        width: 25%;
+        height: 45%;
+        border-radius: 25px;      /*Rounded Corner*/
+        font-size: 13px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .remove-cart-button:hover {
+        background-color: black;
+    }
+
+    /*Total Price*/
+    #totalprice {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;      /*Rounded Corner*/
+        background-color: rgba(37, 37, 37, 0.555);
+        text-align: center;
+        margin-top: 20;
+    }
+
+    /* Footer Style */
+    footer {
+        background-color: black;
+        height: 167px;
+        font-size: 10px;
+        color: white;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        background-image: url("images/Logo.png");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: contain;
+    }
+
+    /*Footer Left and Right*/
+    #alignright {
+        float: right;
+    }
+
+    #alignleft {
+        float: left;
+    }
+    
+    /*Footer Table*/
+    table, th, td {
+        border:0px solid black;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    /* Scroll Down Button */
+    #down {
+        margin-top: 5%;
+        padding-bottom: 0%;
+    } 
+
+    /* Shopping cart number of items  */
+    #cart-icon::after {
+        content: attr(value);
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        border-radius: 25%;
+        padding: 1 5;
+        position: relative;
+        left: -8px;
+        top: -10px;
+        opacity: var(--opacity);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
+  @media (max-width: 600px) {
+    html, body, a, p, p3, h1, h2, h3, h4, header, ul, article, #totalprice, #down, footer {
+      width: 100%;
+      height: auto;
+    }
+  } 
+
