@@ -144,7 +144,7 @@
 
   #col-1-font { 
     position: absolute; 
-    top:97%; 
+    padding: 250 15;
     left:21.5%; 
     font-size: 25;
   }
@@ -161,12 +161,12 @@
 
   #col-2-font {
     position: absolute; 
-    top:97%; 
+    padding: 250 15;
     left:72%; 
     font-size: 25;
   }
 
-  /*Hover Effekt test*/
+  /*Hover Effekt test
   #col-1-font:hover {
     flex: 1;
     font-size: 35px;
@@ -185,7 +185,7 @@
     cursor: pointer;
     user-select: none;
     transition: 1.5s ease;
-  }
+  }*/
 
   /*Our Goal Div*/
   #Goal {

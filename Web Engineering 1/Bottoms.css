@@ -13,7 +13,8 @@
     h1 {
         color: white;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 25;
+        font-size: 45;
+        text-align: center;
     }
 
     h2 {
@@ -39,6 +40,7 @@
         color: white;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18;
+        text-align: center;
     }
 
     p2 {
@@ -127,12 +129,11 @@
         margin-left: 30;
         height: 155;
         background-color: rgb(87, 87, 87); 
-        text-align: left;
-        background-image: url("images/BottomsText.png");
+        /*background-image: url("images/BottomsText.png");
         background-repeat: no-repeat;
         background-position-x: 14cm;
         background-position-y: center;
-        background-size: contain;
+        background-size: contain;*/
     }
 
     /*Products Background*/
