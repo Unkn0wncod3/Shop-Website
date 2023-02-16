@@ -297,7 +297,21 @@
         height: 47px;
         font-size: 19px;
         margin-left: 40;
-        margin-top: 823px;
+        margin-top: 720px;
+    }
+
+    /* Shopping cart number of items  */
+    #cart-icon::after {
+        content:attr(value);
+        font-size:12px;
+        color: #fff;
+        background: red;
+        border-radius:50%;
+        padding: 0 5px;
+        position:relative;
+        left:-8px;
+        top:-10px;
+        opacity:0.9;
     }
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
