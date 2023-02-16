@@ -121,6 +121,7 @@ function totalprice(){
       totalprice += cart[key].price;
     }
   }
+  totalprice = totalprice.toFixed(2);
   document.getElementById("totalprice").innerHTML = "Total: "+totalprice+"€";
 }
 
