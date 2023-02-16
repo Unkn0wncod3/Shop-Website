@@ -30,9 +30,12 @@ function updateCartIcon() {
   var cart = JSON.parse(localStorage.getItem("cart"));
   const cart_icon = document.getElementById("cart-icon");
 
+
   if (localStorage.getItem("cart") === "{}") {
     cart_icon.setAttribute("value", 0);
+    cart_icon.style.setProperty('--opacity', 0.0);
   } else {
+    cart_icon.style.setProperty('--opacity', 1.0);
     var count = 0;
     for (const item in cart) {
       count += parseInt(cart[item].qty);
@@ -79,7 +82,8 @@ function showCart() {
       tr.appendChild(td3);
 
       var td4 = document.createElement("td");
-      td4.innerHTML = cart[item].price;
+      price_temp=cart[item].price.toFixed(2);
+      td4.innerHTML = price_temp+" €";
       tr.appendChild(td4);
 
       var td5 = document.createElement("td");
