@@ -30,6 +30,14 @@
         font-size: 15;
     }
 
+    h4 {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 21;
+        text-align: center;
+        margin-top: 12px;
+    }
+
     p {
         color: white;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -159,6 +167,17 @@
         background-color: black;
     }
 
+    /*Total Price*/
+    #totalprice {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;      /*Rounded Corner*/
+        background-color: rgba(37, 37, 37, 0.555);
+        text-align: center;
+        margin-top: 20;
+    }
+
     /* Footer Style */
     footer {
         background-color: black;
@@ -197,10 +216,25 @@
         padding-bottom: 0%;
     } 
 
+    /* Shopping cart number of items  */
+    #cart-icon::after {
+        content:attr(value);
+        font-size:12px;
+        color: #fff;
+        background: red;
+        border-radius:50%;
+        padding: 0 5px;
+        position:relative;
+        left:-8px;
+        top:-10px;
+        opacity: var(--opacity);
+    }
+
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
   @media (max-width: 600px) {
-    html, body, a, p, p3, h1, h2, h3, header, ul, article, #down, footer {
+    html, body, a, p, p3, h1, h2, h3, h4, header, ul, article, #totalprice, #down, footer {
       width: 100%;
       height: auto;
     }
   } 
+

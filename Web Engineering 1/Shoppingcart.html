@@ -18,51 +18,34 @@
                     <li><a href="Bottoms.html">Bottoms</a></li>
                     <li><a href="#down">About</a></li>
                     <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button></li>
-                    <li><a href="Shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size:19px"></i></a></li>
+                    <li><a href="Shoppingcart.html"><i id="cart-icon" class="fa fa-shopping-cart" style="font-size:19px" value=""></i></a></li>
                     <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
                 </ul>
         </header>
 
         <!--My-Cart-->
         <article>
+            <br>
             <h1>My Cart</h1>
-                    <!--
-                <table id="table1">
+            <table id ="table1">
+                <thead>
                     <tr>
-                        <th>ITEM</th>
-                        <th>SIZE</th>
-                        <th>QTY</th>
-                        <th>PRICE</th>
-                        <th>ADDITIONAL REQUEST</th>
-                    </tr>
-                    <tr>
-                        <td>Your shopping cart is empty
-                            showCart()
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-                -->
-                <table id ="table1">
-                    <thead>
-                      <tr>
                         <th>ITEM</th>
                         <th>SIZE</th>
                         <th>QTY</th>
                         <th>PRICE</th>
                         <th>UPDATE CART</th>
-                      </tr>
-                    </thead>
-                    <tbody id="cart-items">
-                    </tbody>
-                </table>
-            <br>
-            <h1 id="totalprice"></h1>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                </tbody>
+            </table>
             <br>
         </article>
+            <div id="totalprice">
+                <h4 id="tp"></h4>
+            </div>
+            <br>
 
         <!--Footer-->
         <div id="down">
@@ -107,5 +90,6 @@
                 </table>
             </footer>
         </div>
+        <script>updateCartIcon();</script>
     </body>
 </html>
