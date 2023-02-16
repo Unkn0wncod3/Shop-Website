@@ -61,7 +61,8 @@ function showCart() {
       tr.appendChild(td3);
 
       var td4 = document.createElement("td");
-      td4.innerHTML = cart[item].price;
+      price_temp=cart[item].price.toFixed(2);
+      td4.innerHTML = price_temp+" €";
       tr.appendChild(td4);
 
       var td5 = document.createElement("td");
@@ -122,7 +123,11 @@ function totalprice(){
     }
   }
   totalprice = totalprice.toFixed(2);
+<<<<<<< Updated upstream
   document.getElementById("totalprice").innerHTML = "Total: "+totalprice+"€";
+=======
+  document.getElementById("tp").innerHTML = "Total: "+totalprice+" €";
+>>>>>>> Stashed changes
 }
 
 function clearCart() {
