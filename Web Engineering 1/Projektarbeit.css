@@ -141,13 +141,6 @@
     border-top-left-radius: 25px;    /*Rounded Corner top left*/
     border-bottom-left-radius: 25px;   /*Rounded Corner bottom left*/
   }
-
-  #col-1-font { 
-    position: absolute; 
-    padding: 250 15;
-    left:21.5%; 
-    font-size: 25;
-  }
   
   #col-2 {
     width: 50%;
@@ -158,14 +151,7 @@
     background-size: cover;
     border-top-right-radius: 25px;    /*Rounded Corner top right*/
   }
-
-  #col-2-font {
-    position: absolute; 
-    padding: 250 15;
-    left:72%; 
-    font-size: 25;
-  }
-
+  
   /*Hover Effekt test
   #col-1-font:hover {
     flex: 1;
