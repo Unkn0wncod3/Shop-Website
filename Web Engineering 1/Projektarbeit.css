@@ -299,9 +299,10 @@
   /* Shopping cart number of items  */
   #cart-icon::after {
     content: attr(value);
-    font-size: 12px;
+    font-size: 13px;
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255);
+    border: 1px solid black;
     border-radius: 25%;
     padding: 1 5;
     position: relative;
