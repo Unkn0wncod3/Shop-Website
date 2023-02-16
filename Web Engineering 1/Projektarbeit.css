@@ -144,9 +144,9 @@
 
   #col-1-font { 
     position: absolute; 
-    top:96%; 
+    top:97%; 
     left:21.5%; 
-    font-size: 35;
+    font-size: 25;
   }
   
   #col-2 {
@@ -161,9 +161,30 @@
 
   #col-2-font {
     position: absolute; 
-    top:96%; 
-    left:71.5%; 
-    font-size: 35;
+    top:97%; 
+    left:72%; 
+    font-size: 25;
+  }
+
+  /*Hover Effekt test*/
+  #col-1-font:hover {
+    flex: 1;
+    font-size: 35px;
+    text-shadow: 0 3px 5px rgba(#000, 0.25);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: 1.5s ease;
+  }
+
+  #col-2-font:hover {
+    flex: 1;
+    font-size: 35px;
+    text-shadow: 0 3px 5px rgba(#000, 0.25);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: 1.5s ease;
   }
 
   /*Our Goal Div*/
