@@ -24,7 +24,7 @@
             <li><a href="#down">About</a></li>
             <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button>
             </li>
-            <li><a href="Shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size:19px"></i></a></li>
+            <li><a href="Shoppingcart.html"><i id="cart-icon" class="fa fa-shopping-cart" style="font-size:19px" value=""></i></a></li>
             <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
         </ul>
     </header>
@@ -63,9 +63,9 @@
         <div class="quantity">
             <tr>
                 <th><input type="radio" id="one" name="quantity" value="1" checked="true"><label for="one">1</label></th>
-                <th><input type="radio" id="two" name="quantity" value="two"><label for="2">2</label></th>
-                <th><input type="radio" id="three" name="quantity" value="three"><label for="3">3</label></th>
-                <th><input type="radio" id="four" name="quantity" value="four"><label for="4">4</label></th>
+                <th><input type="radio" id="two" name="quantity" value="2"><label for="two">2</label></th>
+                <th><input type="radio" id="three" name="quantity" value="3"><label for="three">3</label></th>
+                <th><input type="radio" id="four" name="quantity" value="4"><label for="four">4</label></th>
             </tr>
         </div>
         <br>
@@ -117,7 +117,7 @@
                 </table>
         </footer>
     </div>
-    <script>createProductCard();</script>
+    <script>createProductCard();updateCartIcon();</script>
 </body>
 
 </html>

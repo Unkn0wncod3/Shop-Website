@@ -6,7 +6,7 @@
         <title>Ylem.clo</title>
     </head>
 
-    <body onload="showCart()">
+    <body onload="showCart(),totalprice()">
 
         <!--Header-->
         <header>
@@ -18,7 +18,7 @@
                     <li><a href="Bottoms.html">Bottoms</a></li>
                     <li><a href="#down">About</a></li>
                     <li><input type="text" placeholder="Search.."> <button type="submit"><i class="fa fa-search"></i></button></li>
-                    <li><a href="Shoppingcart.html"><i class="fa fa-shopping-cart" style="font-size:19px"></i></a></li>
+                    <li><a href="Shoppingcart.html"><i id="cart-icon" class="fa fa-shopping-cart" style="font-size:19px" value=""></i></a></li>
                     <li><a href="Login.html"><i class="fa fa-user" style="font-size:19px;"></i></a></li>
                 </ul>
         </header>
@@ -60,6 +60,11 @@
                 <tbody id="cart-items">
                 </tbody>
             </table>
+                    </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                    </tbody>
+                </table>
             <br>
         </article>
             <div id="totalprice">
@@ -110,5 +115,6 @@
                 </table>
             </footer>
         </div>
+        <script>updateCartIcon();</script>
     </body>
 </html>
