@@ -144,7 +144,7 @@ function totalprice(){
     }
   }
   totalprice = totalprice.toFixed(2);
-  document.getElementById("totalprice").innerHTML = "Total: "+totalprice+"€";
+  document.getElementById("tp").innerHTML = "Total: "+totalprice+"€";
 }
 
 function clearCart() {
