@@ -285,7 +285,6 @@
     /*Message after ATC*/
     .message-box {
         display: none;
-        border: none;
         padding: 12px;
         border-radius: 25px;      /*Rounded Corner*/
         color: white;
@@ -297,7 +296,6 @@
         height: 47px;
         font-size: 19px;
         margin-left: 40;
-        margin-top: 823px;
     }
 
     /* Shopping cart number of items  */
