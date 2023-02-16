@@ -156,7 +156,7 @@
   #Goal {
     color: white;
     height: 450;
-    margin-top: 230;
+    margin-top: 290;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
   }
@@ -164,19 +164,14 @@
   /*Our Goal Text*/
   #Goal-text {
     color: white;
-    margin-left: 500px;
     text-align: center;
   }
   
   /*Logo / Our Goal*/
   #Logo {
-    float: left;    
+    float: left;
     margin-left: 27;
-    margin-top: 47;
-    background-image: url("images/Logo.png");
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
+    margin-top: 50;
   }
 
   /*Packaging*/
@@ -190,7 +185,6 @@
   /*Packaging Text*/
   #Package-text {
     color: white;
-    margin-left: 700px;
     text-align: center;
   }
 
@@ -199,10 +193,6 @@
     float: left;
     margin-left: 27;
     margin-top: 25;
-    background-image: url("images/Package.png");
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 700px;
   }
 
   /*Social Media*/
