@@ -8,10 +8,6 @@
 </head>
 
 <body>
-    <!--Message Box-->
-    <div id="message-box" class="message-box">
-        <i class="fa fa-check"></i>
-    </div>
 
     <!--Header-->
     <header>
@@ -49,6 +45,7 @@
         <h1 id="product_price"></h1>
         <p><i class="fa fa-square" style="color: rgb(129, 214, 2);"></i> In Stock</p>
         <br>
+        <!--Size-->
         <p>Size:</p>
         <div class="size">
             <tr>
@@ -59,6 +56,7 @@
             </tr>
         </div>
         <br>
+        <!--Qty-->
         <p>Quantity:</p>
         <div class="quantity">
             <tr>
@@ -69,7 +67,12 @@
             </tr>
         </div>
         <br>
+        <!--ATC-->
         <div id="card">
+            <!--Message Box-->
+            <div id="message-box" class="message-box">
+                <i class="fa fa-check"></i>
+            </div>
             <button onclick="addToCart();showMessage();">Add to Cart</button>
         </div>
     </div>
