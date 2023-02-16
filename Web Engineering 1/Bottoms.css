@@ -155,23 +155,6 @@
         color: white;
         font-size: 22px;
     }
-    
-    #card button {
-        border: none;
-        outline: 0;
-        padding: 12px;
-        border-radius: 25px;      /*Rounded Corner*/
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-    }
-    
-    #card button:hover {
-        opacity: 0.7;
-    }
 
     /* Footer Style */
     footer {
@@ -225,21 +208,10 @@
         opacity:0.9;
     }
 
-    /*Message after ATC*/
-    .message-box {
-        display: none;
-        border : none;
-        padding: 12px;
-        border-radius: 25px;      /*Rounded Corner*/
-        color: white;
-        background-color: rgb(129, 214, 2);
-        text-align: center;
-        position: fixed;
-        z-index: 999;
-        width: 120px;
-        height: 46px;
-        font-size: 19px;
-        left: 90%;
-        top: 90%;
-        z-index: 999;
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
+  @media (max-width: 600px) {
+    html, body, a, p, p2, p3, h1, h2, h3, h4, header, ul, article, #products, #price, #down, footer {
+      width: 100%;
+      height: auto;
     }
+  } 

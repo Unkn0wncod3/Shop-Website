@@ -129,50 +129,91 @@
     #ProductOV {
         background-color: rgb(71, 71, 71);
         border-radius: 25px;      /*Rounded Corner*/
-        height: 650px;
+        height: 710px;
         margin-top: 40;
     }
 
-    /*Product Size + Quantity*/
-    #table1 {
-        width: 202px;
-        height: auto;
-        margin-left: 40;
-        border: 1px solid white;
-    }
-
-    #table1 th {
-        border: 1px solid white;
-    }
-
     /*Quantity*/
-    /*Dropdown
-    #dropdown {
+    .quantity {
+        color: white;
         border: 1px solid white;
-        margin-left: 40px;
-        height: 40px;
-        width: 50px;
-        text-align: center;
+        width: 220px;
+        margin-left: 40;
+        height: 55px;
+        text-align: left;
+        border-radius: 25px;      /*Rounded Corner*/
     }
-      
-    #dropdown-content {
-        display: none;
-        position: absolute;
-        width: auto;
-        height: auto;
-        background-color: rgb(58, 58, 58);
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        margin-top: 23px;
+
+    .quantity input[type="radio"] {
+        margin-top: 20px;
+        margin-left: 1;
+        opacity: 0;
     }
-     
-    #dropdown:hover #dropdown-content {
-        display: block;
-    } */
+
+    .quantity label {
+        display: inline-block;
+        background-color: rgb(60, 60, 60);
+        padding: 10px 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border-radius: 15px;      /*Rounded Corner*/
+    }
+    
+    .quantity label:hover {
+      background-color: rgba(0, 0, 0, 0.245);
+    }
+    
+    .quantity input[type="radio"]:focus + label {
+        border: 2px solid #444;
+    }
+    
+    .quantity input[type="radio"]:checked + label {
+        background-color: rgb(48, 48, 48);
+        border-color: black;
+    }
+
+    /*Size*/
+    .size {
+        color: white;
+        border: 1px solid white;
+        width: 220px;
+        margin-left: 40;
+        height: 55px;
+        text-align: left;
+        border-radius: 25px;      /*Rounded Corner*/
+    }
+
+    .size input[type="radio"] {
+        margin-top: 20px;
+        margin-left: 1;
+        opacity: 0;
+    }
+
+    .size label {
+        display: inline-block;
+        background-color: rgb(60, 60, 60);
+        padding: 10px 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border-radius: 15px;      /*Rounded Corner*/
+    }
+    
+    .size label:hover {
+      background-color: rgba(0, 0, 0, 0.245);
+    }
+    
+    .size input[type="radio"]:focus + label {
+        border: 2px solid #444;
+    }
+    
+    .size input[type="radio"]:checked + label {
+        background-color: rgb(48, 48, 48);
+        border-color: black;
+    }
 
     /*Product Picture*/
     #ProductPic {
         background: url("images/AstronautTee.png");
-        background-color: rgb(87, 87, 87);
         background-position-x: center;
         background-position-y: 23px;
         background-size: contain;
@@ -253,14 +294,10 @@
         position: absolute;
         z-index: 999;
         width: 120px;
-        height: 46px;
+        height: 47px;
         font-size: 19px;
         margin-left: 40;
-<<<<<<< Updated upstream
         margin-top: 720px;
-    }
-=======
-        margin-top: 823px;
     }
 
     /* Shopping cart number of items  */
@@ -284,4 +321,3 @@
       height: auto;
     }
   } 
->>>>>>> Stashed changes

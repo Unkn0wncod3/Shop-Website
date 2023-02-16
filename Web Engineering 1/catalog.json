@@ -14,7 +14,7 @@
             "category": "tops",
             "name": "Butterfly T-shirt",
             "image_path": "ButterflyTee.png",
-            "description": "3sdfsdfsfd",
+            "description": "Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight<br> cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.<br> No backprint.",
             "gsm": 250,
             "price": 39.99
         },
@@ -23,7 +23,7 @@
             "category": "tops",
             "name": "Skull T-shirt",
             "image_path": "SkullTee.png",
-            "description": "Test123",
+            "description": "Short sleeve jersey t-shirt in jet black. Slightly oversized fit in a medium weight<br> cotton. Ribbed crewneck collar. Floating astronaut motive on the chest.<br> No backprint.",
             "gsm": 250,
             "price": 39.99
         },
@@ -32,27 +32,45 @@
             "category": "tops",
             "name": "Astronaut Hoodie",
             "image_path": "AstronautHoodie.png",
-            "description": "Test123",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
-            "price": 39.99
+            "price": 59.99
         },
         {
             "id": 4,
             "category": "tops",
             "name": "Butterfly Hoodie",
             "image_path": "ButterflyHoodie.png",
-            "description": "Test123",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
-            "price": 39.99
+            "price": 59.99
         },
         {
             "id": 5,
             "category": "tops",
             "name": "Skull Hoodie",
             "image_path": "SkullHoodie.png",
-            "description": "Test123",
+            "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft,<br>pre-shrunk and piece dyed for the ultimate jersey.<br>No backprint",
             "gsm": 250,
-            "price": 39.99
+            "price": 59.99
+        },
+        {
+            "id": 6,
+            "category": "bottoms",
+            "name": "Pants V1",
+            "image_path": "PantsV1.png",
+            "description": "Cargo pant in matte Black nylon.<br>Regular fit with a velcro strap adjuster to the leg opening.<br>Elasticated waistband and cord adjuster.",
+            "gsm": 250,
+            "price": 49.99
+        },
+        {
+            "id": 7,
+            "category": "bottoms",
+            "name": "Pants V2",
+            "image_path": "PantsV2.png",
+            "description": "Cargo pant in matte Black nylon.<br>Double cargo pockets to the side seams finished with zips.<br>Elasticated waistband and cord adjuster.",
+            "gsm": 250,
+            "price": 49.99
         }
     ]
 }

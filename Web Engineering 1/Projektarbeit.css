@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
   html {
     scroll-behavior: smooth;
   }
@@ -49,6 +45,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     font-size: 10px;
+  }
+
+  p4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26;
   }
   
   a {
@@ -143,9 +144,9 @@
 
   #col-1-font { 
     position: absolute; 
-    top:96%; 
+    top:97%; 
     left:21.5%; 
-    font-size: 35;
+    font-size: 25;
   }
   
   #col-2 {
@@ -160,42 +161,83 @@
 
   #col-2-font {
     position: absolute; 
-    top:96%; 
-    left:71.5%; 
-    font-size: 35;
+    top:97%; 
+    left:72%; 
+    font-size: 25;
   }
 
-  /*Our Goal*/
+  /*Hover Effekt test*/
+  #col-1-font:hover {
+    flex: 1;
+    font-size: 35px;
+    text-shadow: 0 3px 5px rgba(#000, 0.25);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: 1.5s ease;
+  }
+
+  #col-2-font:hover {
+    flex: 1;
+    font-size: 35px;
+    text-shadow: 0 3px 5px rgba(#000, 0.25);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: 1.5s ease;
+  }
+
+  /*Our Goal Div*/
   #Goal {
     color: white;
     height: 450;
     margin-top: 170;
-    text-align: right;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
+  }
+
+  /*Our Goal Text*/
+  #Goal-text {
+    color: white;
+    margin-left: 500px;
+    text-align: center;
   }
   
   /*Logo / Our Goal*/
   #Logo {
     float: left;    
-     margin-left: 27;
-     margin-top: 47;
+    margin-left: 27;
+    margin-top: 47;
+    background-image: url("images/Logo.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
   }
 
   /*Packaging*/
   #Packaging {
     color: white;
     height: 480;
-    text-align: right;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
   }
 
+  /*Packaging Text*/
+  #Package-text {
+    color: white;
+    margin-left: 700px;
+    text-align: center;
+  }
+
   /*Package / Packaging*/
-  #Package_Picture {
-    float: left;    
-     margin-left: 27;
-     margin-top: 25;
+  #Package-picture {
+    float: left;
+    margin-left: 27;
+    margin-top: 25;
+    background-image: url("images/Package.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 700px;
   }
 
   /*Social Media*/
@@ -268,10 +310,10 @@
     opacity:0.9;
 }
   
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
   @media (max-width: 600px) {
-    nav, article {
+    html, body, pre, a, p, p2, p3, p4, h1, h2, h3, header, ul, article, #col-1, #col-2, #col-1-font, #col-2-font, #Goal, #Goal-text, #Logo, #Packaging, #Package-text, #Package-picture, #SM, #down, #middle, footer {
       width: 100%;
       height: auto;
     }
-  } */
+  } 

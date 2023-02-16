@@ -195,10 +195,7 @@
     #down {
         margin-top: 5%;
         padding-bottom: 0%;
-<<<<<<< Updated upstream
     } 
-=======
-    }
 
     /* Shopping cart number of items  */
     #cart-icon::after {
@@ -221,4 +218,4 @@
       height: auto;
     }
   } 
->>>>>>> Stashed changes
+

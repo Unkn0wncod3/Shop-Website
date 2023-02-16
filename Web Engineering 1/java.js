@@ -86,7 +86,7 @@ function showCart() {
       var remove_button = document.createElement("button");
       remove_button.className = "remove-cart-button";
       remove_button.id = item
-      remove_button.setAttribute("onClick", "removeFromCart(id)");
+      remove_button.setAttribute("onClick", "removeFromCart(id),totalprice()");
       remove_button.innerHTML = "REMOVE";
       td5.innerHTML = remove_button.outerHTML;
       tr.appendChild(td5);
@@ -132,6 +132,17 @@ function addToCart() {
   
 }
 
+function totalprice(){
+  var cart = JSON.parse(localStorage.getItem("cart")) || {};
+  var totalprice=0;
+  for (var key in cart) {
+    if (cart.hasOwnProperty(key)) {
+      totalprice += cart[key].price;
+    }
+  }
+  document.getElementById("totalprice").innerHTML = "Total: "+totalprice+"€";
+}
+
 function clearCart() {
   localStorage.removeItem("cart");
 }
@@ -146,7 +157,29 @@ function createProductCard() {
     $("#product_title").html(data.products[id].name);
     $("#product_description").html(data.products[id].description);
     $("#ProductPic").css("background", "url(images/" + data.products[id].image_path + ")");
+    if (data.products[id].category=="bottoms") {
+      $("#ProductPic").css("width", "400px");
+    }
+    $("#product_price").html("Price: " + data.products[id].price + "€");
   });
 }
 
+function login() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  if (username === "admin" && password === "123") {
+    document.getElementById("message").innerHTML = "Login successful!";
+    showMessage();
+  } else {
+    document.getElementById("message").innerHTML = "Wrong username or password";
+    showMessage_false();
+  }
+}
+
+function showMessage_false() {
+  var messageBox = document.getElementById("message-box-false");
+  messageBox.style.display = "inline";
+  setTimeout(function () {
+    messageBox.style.display = "none";
+  }, 2000); // Die Box wird nach 2000 Millisekunden ausgeblendet.
 }

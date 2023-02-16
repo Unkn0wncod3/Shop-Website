@@ -156,23 +156,6 @@
         color: white;
         font-size: 22px;
     }
-      
-    #card button {
-        border: none;
-        outline: 0;
-        padding: 12px;
-        border-radius: 25px;      /*Rounded Corner*/
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-    }
-      
-    #card button:hover {
-        opacity: 0.7;
-    }
   
     /* Footer Style */
     footer {
@@ -212,7 +195,6 @@
         padding-bottom: 0%;
     } 
 
-<<<<<<< Updated upstream
     /*Message after ATC*/
     .message-box {
         display: none;
@@ -231,7 +213,7 @@
         top: 90%;
         z-index: 999;
     }
-=======
+
     /* Shopping cart number of items  */
     #cart-icon::after {
         content:attr(value);
@@ -253,4 +235,3 @@
       height: auto;
     }
   } 
->>>>>>> Stashed changes
