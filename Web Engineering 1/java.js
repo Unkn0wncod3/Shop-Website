@@ -68,7 +68,7 @@ function showCart() {
       var remove_button = document.createElement("button");
       remove_button.className = "remove-cart-button";
       remove_button.id = item
-      remove_button.setAttribute("onClick", "removeFromCart(id)");
+      remove_button.setAttribute("onClick", "removeFromCart(id),totalprice()");
       remove_button.innerHTML = "REMOVE";
       td5.innerHTML = remove_button.outerHTML;
       tr.appendChild(td5);
