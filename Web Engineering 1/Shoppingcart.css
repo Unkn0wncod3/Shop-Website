@@ -227,7 +227,7 @@
         position:relative;
         left:-8px;
         top:-10px;
-        opacity:0.9;
+        opacity: var(--opacity);
     }
 
     /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
