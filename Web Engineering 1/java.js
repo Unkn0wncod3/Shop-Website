@@ -113,6 +113,17 @@ function addToCart() {
   }
 }
 
+function totalprice(){
+  var cart = JSON.parse(localStorage.getItem("cart")) || {};
+  var totalprice=0;
+  for (var key in cart) {
+    if (cart.hasOwnProperty(key)) {
+      totalprice += cart[key].price;
+    }
+  }
+  document.getElementById("totalprice").innerHTML = "Total: "+totalprice+"€";
+}
+
 function clearCart() {
   localStorage.removeItem("cart");
 }
