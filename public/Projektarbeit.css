@@ -25,12 +25,6 @@
     font-size: 15;
   }
 
-  pre {
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 26;
-  }
-
   p {
     color: white;
     font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -122,8 +116,8 @@
   article {
     background-image: url("images/astronaut-1.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     color: white; 
     text-align: center;
     height: 500px;
@@ -131,68 +125,56 @@
 
   /* Products */
   #col-1 {
+    padding: 0px;
+    text-align: left;
+  }
+
+  #col-1 img {
     width: 50%;
-    height: 75%;
     float: left;
-    background-image: url("images/Bottoms-black.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position-y: center;
     border-top-left-radius: 25px;    /*Rounded Corner top left*/
     border-bottom-left-radius: 25px;   /*Rounded Corner bottom left*/
   }
-  
+
   #col-2 {
+    padding: 0px;
+    text-align: right;
+  }
+
+  #col-2 img {
     width: 50%;
-    height: 75%;
     float: right;
-    background-image: url("images/Tops-black.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     border-top-right-radius: 25px;    /*Rounded Corner top right*/
+    border-bottom-right-radius: 25px;    /*Rounded Corner top right*/
   }
 
   /*Our Goal Div*/
   #Goal {
     color: white;
-    height: 450;
-    margin-top: 290;
+    padding: 50px;
+    height: 350px;
+    text-align: center;
+    margin-top: 260;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
   }
 
-  /*Our Goal Text*/
-  #Goal-text {
-    color: white;
-    text-align: center;
-  }
-  
-  /*Logo / Our Goal*/
-  #Logo {
+  #Goal img {
     float: left;
-    margin-left: 27;
-    margin-top: 50;
   }
 
   /*Packaging*/
   #Packaging {
     color: white;
-    height: 480;
+    padding: 50px;
+    height: 435px;
+    text-align: center;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
   }
 
-  /*Packaging Text*/
-  #Package-text {
-    color: white;
-    text-align: center;
-  }
-
-  /*Package / Packaging*/
-  #Package-picture {
+  #Packaging img {
     float: left;
-    margin-left: 27;
-    margin-top: 25;
   }
 
   /*Social Media*/
@@ -266,10 +248,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
-  @media (max-width: 600px) {
-    html, body, pre, a, p, p2, p3, p4, h1, h2, h3, header, ul, article, #col-1, #col-2, #Goal, #Goal-text, #Logo, #Packaging, #Package-text, #Package-picture, #SM, #down, #middle, footer {
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
+  @media (max-width: 400px) {
+    header, ul, article, #col-1, #col-2, #Goal, #Goal img, #Packaging, #Packaging img, #SM, #down, #middle, footer {
       width: 100%;
       height: auto;
     }
-  } 
+  } */
