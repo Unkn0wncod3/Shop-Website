@@ -116,7 +116,8 @@
   article {
     background-image: url("images/astronaut-1.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+   background-size: cover;
+   background-attachment: fixed;
     background-position: center;
     color: white; 
     text-align: center;
@@ -185,11 +186,15 @@
     text-align: center; 
     background-color: rgb(81, 81, 81);
     border-radius: 25px;      /*Rounded Corner*/
-    background-image: url("images/SocialMedia-1.png");
+    /*background-image: url("images/SocialMedia-1.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 75%;
-    background-size: 30%;
+    background-size: 30%;*/
+  }
+
+  #SM img {
+    height: 70px;
   }
 
   /* Footer Style */
