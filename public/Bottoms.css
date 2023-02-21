@@ -125,17 +125,14 @@
 
     /*Article Cotton Text*/
     article {
-        margin-top: 20;
-        margin-left: 30;
-        height: 155;
         background-color: rgb(87, 87, 87); 
     }
 
     /*Products Background*/
     #products {
-        margin-top: 20;
         background-color: rgb(91, 91, 91);
         border-radius: 25px;      /*Rounded Corner*/
+        text-align: center;
     }
 
     /*Product card*/
