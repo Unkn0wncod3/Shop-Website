@@ -252,11 +252,3 @@
     opacity: var(--opacity);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-  
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
-  @media (max-width: 400px) {
-    header, ul, article, #col-1, #col-2, #Goal, #Goal img, #Packaging, #Packaging img, #SM, #down, #middle, footer {
-      width: 100%;
-      height: auto;
-    }
-  } */
