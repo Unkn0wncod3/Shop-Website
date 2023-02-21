@@ -68,32 +68,34 @@
         font-family: Tahoma, Verdana, Segoe, sans-serif;
     }
 
-    /*Navbar*/
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: transparent;
-        /*background-color: rgba(51, 51, 51, 0.681);*/
-        text-align: center;
+    header h2 {
+        margin-left: 15px;
     }
     
-    li {
-        display: inline-block;
+    /*Navbar*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+      text-align: left;
     }
-
+    
+    li{
+      display: inline-block;
+    }
+    
     li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: Tahoma, Verdana, Segoe, sans-serif;
+      display: block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     li a:hover {
-        background-color: rgba(0, 0, 0, 0.245);
+      background-color: rgba(0, 0, 0, 0.245);
     }
 
     /*Searchbox*/
