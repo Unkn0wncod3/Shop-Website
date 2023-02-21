@@ -212,17 +212,8 @@
     }
 
     /*Product Picture*/
-    #ProductPic {
-        background: url("images/AstronautTee.png");
-        background-position-x: center;
-        background-position-y: 23px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        border-radius: 25px;      /*Rounded Corner*/
-        height: 480px; 
-        width: 480px; 
-        margin-left: 940px;
+    #ProductOV img {
+        float: right;
     }
 
     /*Add to Card*/

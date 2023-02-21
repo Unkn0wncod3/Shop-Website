@@ -161,9 +161,9 @@ function createProductCard() {
     console.log(data);
     $("#product_title").html(data.products[id].name);
     $("#product_description").html(data.products[id].description);
-    $("#ProductPic").css("background", "url(images/" + data.products[id].image_path + ")");
+    $("#product_picture").html("src=" + data.products[id].image_path); /*IMG Path machen*/
     if (data.products[id].category=="bottoms") {
-      $("#ProductPic").css("width", "400px");
+      $("#product_picture").html("width", "400px");
     }
     $("#product_price").html("Price: " + data.products[id].price + "€");
   });
