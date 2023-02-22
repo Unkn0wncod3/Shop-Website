@@ -123,7 +123,7 @@
     #ProductOV {
         background-color: rgb(71, 71, 71);
         border-radius: 25px;      /*Rounded Corner*/
-        height: 710px;
+        height: 740px;
         margin-top: 40;
     }
 
@@ -297,11 +297,3 @@
         opacity: var(--opacity);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-
-    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens*/ 
-  @media (max-width: 600px) {
-    html, body, a, p, p2, p3, p4, h1, h2, h3, header, ul, #ProductOV, #ProductPic, #card, #down, #middle, footer {
-      width: 100%;
-      height: auto;
-    }
-  } 

@@ -8,16 +8,9 @@
     </head>
 
     <body>
-        <div id="message-box" class="message-box">
-            <i class="fa fa-check"></i>
-        </div>
-        <div id="message-box-false" class="message-box-false">
-            <i class="fa-solid fa-xmark"></i>
-        </div>
-        <!--Logo-&-LogoDiv-->
+        <!--LogoDiv-->
         <div id="LogoDiv">
-            <a href="Projektarbeit.html"><div id="Logo">   
-            </div></a>
+            <a href="Projektarbeit.html"><img src="images/Logo.png"></a>
         </div>
 
         <!--Login-->
@@ -27,11 +20,22 @@
                 <label for="uname"><p>Username</p></label>
                 <input type="text" id="username" placeholder="Enter Username" name="uname" required>
                 <!--Password-Box-->
+                <br>
                 <label for="psw"><p>Password</p></label>
                 <input type="password" id="password" placeholder="Enter Password" name="psw" required>
-                <!--Login-Button-->        
-                <button type="submit" onclick="login()">Login</button>    
-                <p id="message"></p>          
+                <!--Login-Button-->
+                <br>
+                <br>
+                <button type="submit" onclick="login()">Login</button>
+                <br>
+                <p id="message"></p>
+        </div>
+        <!--Message-Box-->
+        <div id="message-box" class="message-box">
+            <i class="fa fa-check"></i>
+        </div>
+        <div id="message-box-false" class="message-box-false">
+            <i class="fa-solid fa-xmark"></i>
         </div>
     </body>
 </html>
