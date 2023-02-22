@@ -161,7 +161,10 @@ function createProductCard() {
     console.log(data);
     $("#product_title").html(data.products[id].name);
     $("#product_description").html(data.products[id].description);
-    $("#product_picture").attr("src", "images/" + data.products[id].image_path);
+    $("#product_picture").attr("src", "images/" + data.products[id].image_path)
+    // if (data.products[id].category=="bottoms") {
+    //   $("#product_picture").html("width", "400px");
+    // }
     $("#product_price").html("Price: " + data.products[id].price + "€");
   });
 }
