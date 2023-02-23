@@ -26,29 +26,24 @@ p {
     margin-left: 25%;
     transform: skewY(-10deg);
     width: 50%;
-    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 /*Logo*/
-#LogoDiv img {
-    height: 150px;
-    width: 150px;
-    padding: 20px;
-    max-height: max-content;
-    max-width: max-content;
+#LogoPic {
+    width: max-content;
+    height: max-content;
 }
 
-/*Logo Hover*/
-img:hover{
-    z-index: 999;
-    background-image: url("images/Logo-Hover.png");
-    background-position-x: center;
-    background-position-y: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+#LogoPic img {
     height: 150px;
     width: 150px;
     padding: 20px;
+}
+
+#LogoPic:hover img{
+    content: url("images/Logo-Hover.png");
 }
 
 /*Login*/
