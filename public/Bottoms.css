@@ -134,7 +134,10 @@
         max-width: 30%;
         border-radius: 25px;      /*Rounded Corner*/
         margin-top: 20px;
+        margin-bottom: 20px;
         text-align: center;
+        display: inline-block;
+        /*margin:23px; Abstand zwischen den Cards*/
     }
       
     #price {
