@@ -126,7 +126,7 @@
   #col-1 img {
     width: 50%;
     float: left;
-    border-top-left-radius: 25px;    /*Rounded Corner top left*/
+    /*border-top-left-radius: 25px;    Rounded Corner top left
     border-bottom-left-radius: 25px;   /*Rounded Corner bottom left*/
   }
 
@@ -138,8 +138,16 @@
   #col-2 img {
     width: 50%;
     float: right;
-    border-top-right-radius: 25px;    /*Rounded Corner top right*/
+    /*border-top-right-radius: 25px;    Rounded Corner top right
     border-bottom-right-radius: 25px;    /*Rounded Corner top right*/
+  }
+
+  #col-1:hover img{
+    content: url("images/Bottoms-black-hover.png");
+  }
+
+  #col-2:hover img {
+    content: url("images/Tops-black-hover.png");
   }
 
   /*Our Goal Div*/
