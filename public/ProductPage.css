@@ -127,58 +127,20 @@
         margin-top: 40;
     }
 
-    /*Quantity*/
-    .quantity {
-        color: white;
-        border: 1px solid white;
-        width: 220px;
-        margin-left: 40;
-        height: 55px;
-        text-align: left;
-        border-radius: 25px;      /*Rounded Corner*/
-    }
-
-    .quantity input[type="radio"] {
-        margin-top: 20px;
-        margin-left: 1;
-        opacity: 0;
-    }
-
-    .quantity label {
-        display: inline-block;
-        background-color: rgb(60, 60, 60);
-        padding: 10px 10px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 15px;
-        border-radius: 15px;      /*Rounded Corner*/
-    }
-    
-    .quantity label:hover {
-      background-color: rgba(0, 0, 0, 0.245);
-    }
-    
-    .quantity input[type="radio"]:focus + label {
-        border: 2px solid #444;
-    }
-    
-    .quantity input[type="radio"]:checked + label {
-        background-color: rgb(48, 48, 48);
-        border-color: black;
-    }
-
     /*Size*/
     .size {
         color: white;
-        border: 1px solid white;
+        border-width: 3px;
+        border-style: solid;
+        border-image: linear-gradient(to right, white, rgb(87, 87, 87)) 1;
         width: 220px;
         margin-left: 40;
         height: 55px;
         text-align: left;
-        border-radius: 25px;      /*Rounded Corner*/
     }
 
     .size input[type="radio"] {
-        margin-top: 20px;
+        margin-top: 8%;
         margin-left: 1;
         opacity: 0;
     }
@@ -201,6 +163,47 @@
     }
     
     .size input[type="radio"]:checked + label {
+        background-color: rgb(48, 48, 48);
+        border-color: black;
+    }
+
+    /*Quantity*/
+    .quantity {
+        color: white;
+        border-width: 3px;
+        border-style: solid;
+        border-image: linear-gradient(to right, white, rgb(87, 87, 87)) 1;
+        width: 220px;
+        margin-left: 40;
+        height: 55px;
+        text-align: left;
+        border-radius: 25px;      /*Rounded Corner*/
+    }
+
+    .quantity input[type="radio"] {
+        margin-top: 8%;
+        margin-left: 1;
+        opacity: 0;
+    }
+
+    .quantity label {
+        display: inline-block;
+        background-color: rgb(60, 60, 60);
+        padding: 10px 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        border-radius: 15px;      /*Rounded Corner*/
+    }
+    
+    .quantity label:hover {
+      background-color: rgba(0, 0, 0, 0.245);
+    }
+    
+    .quantity input[type="radio"]:focus + label {
+        border: 2px solid #444;
+    }
+    
+    .quantity input[type="radio"]:checked + label {
         background-color: rgb(48, 48, 48);
         border-color: black;
     }
