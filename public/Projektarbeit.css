@@ -118,6 +118,10 @@
   } 
 
   /* Products */
+  #products {
+    overflow: hidden;
+  }
+
   #col-1 {
     padding: 0px;
     text-align: left;
@@ -126,8 +130,8 @@
   #col-1 img {
     width: 50%;
     float: left;
-    /*border-top-left-radius: 25px;    Rounded Corner top left
-    border-bottom-left-radius: 25px;   /*Rounded Corner bottom left*/
+    transition: .5s;
+    transform: scale(1);
   }
 
   #col-2 {
@@ -138,16 +142,20 @@
   #col-2 img {
     width: 50%;
     float: right;
-    /*border-top-right-radius: 25px;    Rounded Corner top right
-    border-bottom-right-radius: 25px;    /*Rounded Corner top right*/
+    transition: .5s;
+    transform: scale(1);
   }
 
   #col-1:hover img{
     content: url("images/Bottoms-black-hover.png");
+    transform: scale(1.1);
+    transition: .5s;
   }
 
   #col-2:hover img {
     content: url("images/Tops-black-hover.png");
+    transform: scale(1.1);
+    transition: .5s;
   }
 
   /*Our Goal Div*/
@@ -156,7 +164,7 @@
     padding: 50px;
     height: 350px;
     text-align: center;
-    margin-top: 260;
+    margin-top: -10%;
     background-color: rgb(50, 50, 50);
     transform: skewY(-11deg);
   }
@@ -183,15 +191,10 @@
   #SM {
     color: white;
     height: 200;
-    margin-top: 180;
+    margin-top: 15%;
     text-align: center; 
     background-color: rgb(81, 81, 81);
     border-radius: 25px;      /*Rounded Corner*/
-    /*background-image: url("images/SocialMedia-1.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 75%;
-    background-size: 30%;*/
   }
 
   #SM img {
