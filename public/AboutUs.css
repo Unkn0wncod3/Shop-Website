@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(87, 87, 87);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+  }
+
+p2 {
+  color: white;
+  font-family: 'Century Gothic', CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: bold;
+}
+
+header {
+    background-color: rgb(50, 50, 50);
+    width: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    display: flexbox;
+    border-radius: 25px;
+}
+
+#headerpic {
+    display: flex;
+    justify-content: center;
+}
+
+#headerpic img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+img:hover {
+    content: url("images/Logo-Hover.png");
+}
+
+article {
+    background-color: rgb(70, 70, 70);
+    border-radius: 25px;      /*Rounded Corner*/
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+}
