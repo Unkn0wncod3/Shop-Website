@@ -115,7 +115,7 @@
     color: white; 
     text-align: center;
     height: 500px;
-  } 
+  }
 
   /* Products */
   #products {
@@ -235,12 +235,12 @@
   }
 
   /*Footer Left and Right*/
-  #alignright {
-      float: right;
-  }
-   
   #alignleft {
-      float: left;
+    float: left;
+  }
+
+  #alignright {
+    float: right;
   }
 
   /*Footer Table*/
@@ -253,7 +253,6 @@
   }
 
   /* Scroll Down Button */
-
   #down {
     margin-top: 5%;
     padding-bottom: 0%;
