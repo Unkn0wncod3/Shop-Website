@@ -204,11 +204,15 @@
   /*Social Media*/
   #SM {
     color: white;
-    height: 200;
     margin-top: 14.5%;
+    height: 200px;
     text-align: center; 
-    background-color: rgb(81, 81, 81);
-    border-radius: 25px;      /*Rounded Corner*/
+    border-radius: 25px;      /* Rounded Corner */
+    background-image: url("images/SM_Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
   }
 
   #SM img {
