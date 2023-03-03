@@ -238,6 +238,15 @@
     text-align: center;
   }
 
+  /*Footer Table*/
+  footer table, th, td {
+    border:0px solid black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+  }
+
   /*Footer Left and Right*/
   #alignleft {
     float: left;
@@ -245,15 +254,6 @@
 
   #alignright {
     float: right;
-  }
-
-  /*Footer Table*/
-  table, th, td {
-    border:0px solid black;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    text-align: center;
   }
 
   /* Scroll Down Button */
