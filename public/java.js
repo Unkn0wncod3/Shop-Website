@@ -9,6 +9,7 @@ function showMessage() {
   }, 2000); // Show the green button for 2 seconds.
 }
 
+// Remove a specific item from the shopping cart
 function removeFromCart(item) {
   if (typeof (Storage) !== "undefined") {
     var cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -27,7 +28,8 @@ function showCart_simple() {
   console.log(cart);
 }
 
-
+// Update the shopping cart icon to show the amount of items
+// in the shoppping cart.
 function updateCartIcon() {
   showCart_simple();
   var cart = JSON.parse(localStorage.getItem("cart"));
@@ -47,6 +49,7 @@ function updateCartIcon() {
   }
 }
 
+// Show all the items in your shopping cart
 function showCart() {
   // Hier wird der Code zum Anzeigen des Warenkorbs eingefügt
   var cart = JSON.parse(localStorage.getItem("cart"));
