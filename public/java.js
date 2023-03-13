@@ -1,9 +1,12 @@
+
+// This function gets called when the "Add to Cart" button is pressed.
+// It displays a green Button over the "Add to Cart" button to confirm your action.
 function showMessage() {
   var messageBox = document.getElementById("message-box");
   messageBox.style.display = "inline";
   setTimeout(function () {
     messageBox.style.display = "none";
-  }, 2000); // Die Box wird nach 2000 Millisekunden ausgeblendet.
+  }, 2000); // Show the green button for 2 seconds.
 }
 
 function removeFromCart(item) {
