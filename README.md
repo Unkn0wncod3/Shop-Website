@@ -51,7 +51,13 @@ About us:
 The About us page shows a impressum about the brand. On top of the page, there is a logo with the same hover effect like on the log-in page. There are no other functions on this page.
 ![image](https://user-images.githubusercontent.com/97988163/225872941-53b7406f-ba9e-4c21-bca9-66b8256f1d1f.png)
 
+Who did what?
+	
 
+
+| Philip  | Alexander & Cristiano |
+| ------------- | ------------- |
+| Frontend:<br><br>HTML + CSS of all pages: Homepage, Tops, Bottoms, Productpage, Shoppingcart, About us and Log-in.<br><br>Implementation of the functions for the arrow on the homepage and the about function in the header.<br><br>Design of all Products, the Logo and the Package.  | Backend:<br><br>Java, JSON, Node.js of all pages.<br>Setup localhost server with express.<br><br>Implementation of all the cart functions, messagebox, updating cart icon.<br><br>Most of the time we worked together on one computer or worked on the same problem/function.  |
 
 
 
