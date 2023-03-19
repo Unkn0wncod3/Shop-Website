@@ -38,6 +38,8 @@ Last but not least, the footer, on the right side, you can press on About us, Pa
 
 ![image](https://user-images.githubusercontent.com/97988163/225872493-04e5c7c1-fa02-40ad-b9a0-3669883d1347.png)
 
+<br>
+
 ### Tops:
 
 The header and the footer stay the same on every page. All products are in a div called "card," and the images of the Hoodies or Tees are clickable.
