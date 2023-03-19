@@ -1,11 +1,15 @@
+
+// This function gets called when the "Add to Cart" button is pressed.
+// It displays a green Button over the "Add to Cart" button to confirm your action.
 function showMessage() {
   var messageBox = document.getElementById("message-box");
   messageBox.style.display = "inline";
   setTimeout(function () {
     messageBox.style.display = "none";
-  }, 2000); // Die Box wird nach 2000 Millisekunden ausgeblendet.
+  }, 2000); // Show the green button for 2 seconds.
 }
 
+// Remove a specific item from the shopping cart
 function removeFromCart(item) {
   if (typeof (Storage) !== "undefined") {
     var cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -24,7 +28,8 @@ function showCart_simple() {
   console.log(cart);
 }
 
-
+// Update the shopping cart icon to show the amount of items
+// in the shoppping cart.
 function updateCartIcon() {
   showCart_simple();
   var cart = JSON.parse(localStorage.getItem("cart"));
@@ -44,6 +49,7 @@ function updateCartIcon() {
   }
 }
 
+// Show all the items in your shopping cart
 function showCart() {
   // Hier wird der Code zum Anzeigen des Warenkorbs eingefügt
   var cart = JSON.parse(localStorage.getItem("cart"));
