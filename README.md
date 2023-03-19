@@ -1,5 +1,16 @@
 # Shop-Website
-Project work
+
+## Get started
+```
+git clone https://github.com/Unkn0wncod3/Shop-Website.git
+cd Shop-Website
+npm install
+npm run dev
+```
+
+Go to http://localhost:8000.
+
+## Documentation
 
 Ylem.clo
 
@@ -58,8 +69,3 @@ Who did what?
 | Philip  | Alexander & Cristiano |
 | ------------- | ------------- |
 | Frontend:<br><br>HTML + CSS of all pages: Homepage, Tops, Bottoms, Productpage, Shoppingcart, About us and Log-in.<br><br>Implementation of the functions for the arrow on the homepage and the about function in the header.<br><br>Design of all Products, the Logo and the Package.  | Backend:<br><br>Java, JSON, Node.js of all pages.<br>Setup localhost server with express.<br><br>Implementation of all the cart functions, messagebox, updating cart icon.<br><br>Most of the time we worked together on one computer or worked on the same problem/function.  |
-
-
-
-
-
