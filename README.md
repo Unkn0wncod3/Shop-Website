@@ -63,9 +63,10 @@ The About us page shows a impressum about the brand. On top of the page, there i
 ![image](https://user-images.githubusercontent.com/97988163/225872941-53b7406f-ba9e-4c21-bca9-66b8256f1d1f.png)
 
 Who did what?
-	
 
-
-| Philip  | Alexander & Cristiano |
-| ------------- | ------------- |
-| Frontend:<br><br>HTML + CSS of all pages: Homepage, Tops, Bottoms, Productpage, Shoppingcart, About us and Log-in.<br><br>Implementation of the functions for the arrow on the homepage and the about function in the header.<br><br>Design of all Products, the Logo and the Package.  | Backend:<br><br>Java, JSON, Node.js of all pages.<br>Setup localhost server with express.<br><br>Implementation of all the cart functions, messagebox, updating cart icon.<br><br>Most of the time we worked together on one computer or worked on the same problem/function.  |
+| Philip 	| Alexander and Cristiano 	|
+|---	|---	|
+| Frontend: 	| Backend: 	|
+| HTML + CSS of all pages: Homepage, Tops, Bottoms, Product page, Shopping cart,  About us and Log-in 	| Java, JSON, Node.js of all pages. Setup localhost server with express. 	|
+| Implementation of the functions for the arrow on the homepage and the about function in the header 	| Implementation of the shopping cart functions, dynamic message boxes, updating the user interface, dynamic product page construction. 	|
+| Design of all products, the logo and the package 	| Pair programming, so we often worked on the same computer and on the same functions 	|
